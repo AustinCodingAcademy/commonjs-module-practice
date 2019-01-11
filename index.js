@@ -15,7 +15,7 @@ answer = subtract(number1,number2);
 console.log(answer);
 
 answer = multiply(number1,number2);
-console.log(answer);
+console.log('multipling', answer);
 
 answer = divide(number1,number2);
 console.log(answer);
