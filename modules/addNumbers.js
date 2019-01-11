@@ -7,3 +7,7 @@ module.exports.addTen =  function(num) {
 module.exports.addFive = function(num) {
   return add(num, 5);
 }
+
+module.exports.addOne = function(num) {
+  return add(num, 1);
+}
