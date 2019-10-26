@@ -1,0 +1,19 @@
+{
+  "name": "commonjs-module-practice",
+  "version": "1.0.0",
+  "description": "* fork, clone, run index.js through node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambarrick/commonjs-module-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambarrick/commonjs-module-practice/issues"
+  },
+  "homepage": "https://github.com/sambarrick/commonjs-module-practice#readme"
+}
