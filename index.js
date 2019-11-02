@@ -1,8 +1,8 @@
 const add  = require("./modules/add");
 const subtract = require("./modules/subtract");
-const multiply= require("./modules/multiply");
-const {addTen, addFive} = require("./modules/addNumbers");
-const {subtractOne}= require("./modules/subtractNumbers");
+const multiply= require("./multiply");
+const {addTen, addFive, addOne} = require("./modules/addNumbers");
+const {subtractOne, subtractFive, subtractTen}= require("./subtractNumbers");
 
 const number1 = 393;
 const number2 = 238;
@@ -14,9 +14,6 @@ answer = subtract(number1,number2);
 console.log(answer);
 
 answer = multiply(number1,number2);
-console.log(answer);
-
-answer = divide(number1,number2);
 console.log(answer);
 
 answer = addTen(number1);
